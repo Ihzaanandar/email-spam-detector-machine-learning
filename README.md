@@ -30,7 +30,6 @@ Specifically, the project aims to:
 
     ├── emails.csv
     ├── email-spam-detector-machine-learning.ipynb
-    ├── email-spam-detector-machine-learning.pdf
     └── README.md
 
 ------------------------------------------------------------------------
