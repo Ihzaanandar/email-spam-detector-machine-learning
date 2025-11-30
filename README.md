@@ -5,9 +5,6 @@ email messages as **spam** or **ham** (not spam).\
 The workflow includes text preprocessing, TF-IDF vectorization,
 hyperparameter tuning using RandomizedSearchCV, and model evaluation.
 
-This notebook is designed as a complete end-to-end NLP project suitable
-for portfolio presentation.
-
 ------------------------------------------------------------------------
 
 ## 🚀 Project Objective
@@ -136,8 +133,7 @@ Then open:
 -   TF-IDF feature extraction\
 -   Machine learning pipelines\
 -   Random Forest optimization\
--   Practical model evaluation\
--   PDF export using LaTeX templates
+-   Practical model evaluation
 
 ------------------------------------------------------------------------
 
