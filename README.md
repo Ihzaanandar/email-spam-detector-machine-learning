@@ -8,6 +8,8 @@ hyperparameter tuning using RandomizedSearchCV, and model evaluation.
 This notebook is designed as a complete end-to-end NLP project suitable
 for portfolio presentation.
 
+------------------------------------------------------------------------
+
 ## 🚀 Project Objective
 
 The goal of this project is to build a reliable text classification
@@ -16,20 +18,22 @@ model capable of detecting spam emails using Natural Language Processing
 
 Specifically, the project aims to:
 
--   Clean and preprocess raw email text
--   Transform text into numerical features using TF-IDF
--   Train a classification model using Random Forest
--   Evaluate performance using accuracy scores
+-   Clean and preprocess raw email text\
+-   Transform text into numerical features using TF-IDF\
+-   Train a classification model using Random Forest\
+-   Evaluate performance using accuracy scores\
 -   Test the model using real examples (spam and ham messages)
+
+------------------------------------------------------------------------
 
 ## 📂 Project Structure
 
-    ├── data/
-    │   └── emails.csv
-    ├── spam-classification-project.ipynb
-    ├── custom_template.tplx   (optional – used for PDF export)
-    ├── spam-classification-project.pdf
+    ├── emails.csv
+    ├── email-spam-detector-machine-learning.ipynb
+    ├── email-spam-detector-machine-learning.pdf
     └── README.md
+
+------------------------------------------------------------------------
 
 ## 🛠️ Technologies & Libraries Used
 
@@ -42,6 +46,8 @@ Specifically, the project aims to:
 -   TfidfVectorizer\
 -   RandomizedSearchCV\
 -   jcopml (for hyperparameter tuning)
+
+------------------------------------------------------------------------
 
 ## 📘 Notebook Contents
 
@@ -60,9 +66,8 @@ Data is split into training and testing sets using stratified sampling.
 
 ### 4. Pipeline Construction
 
-A full ML pipeline is built containing: - TF-IDF Vectorizer for text
-transformation\
-- Random Forest Classifier as the prediction model
+A full ML pipeline is built containing: - TF-IDF Vectorizer\
+- Random Forest Classifier
 
 ### 5. Hyperparameter Tuning
 
@@ -71,14 +76,16 @@ parameters.
 
 ### 6. Model Evaluation
 
-Performance metrics: - Training accuracy\
-- Cross-validation score\
+Metrics include: - Training accuracy\
+- Cross-validation performance\
 - Test accuracy
 
 ### 7. Sanity Check
 
-The model is tested using: - A spam-like promotional email\
-- A ham (legitimate) message
+Testing the model on: - A spam-like promotional message\
+- A legitimate (ham) message
+
+------------------------------------------------------------------------
 
 ## 📊 Model Performance Summary
 
@@ -86,7 +93,9 @@ The final model demonstrates strong classification ability with:
 
 -   High training accuracy\
 -   Strong cross-validation score\
--   Good generalization on test data
+-   Good performance on test data
+
+------------------------------------------------------------------------
 
 ## ▶️ How to Run the Project
 
@@ -97,11 +106,18 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
 
-### 2. Install Dependencies
+### 2. Environment Requirement (Important)
 
-``` bash
-pip install -r requirements.txt
-```
+This project uses a **private environment** containing specific Python
+and library versions.\
+The environment details are **not shared publicly**.
+
+If you need the exact environment to run the notebook, please contact me
+directly at:
+
+📩 **anandarachmanihza@gmail.com**
+
+I will provide the necessary information privately.
 
 ### 3. Run the Notebook
 
@@ -113,11 +129,12 @@ Then open:
 
     spam-classification-project.ipynb
 
+------------------------------------------------------------------------
+
 ## 📄 Exporting Notebook to PDF (Optional)
 
-This project includes instructions to export the notebook to PDF with: -
-Date\
-- Title\
+If you want to export the notebook to PDF with: - Title\
+- Date\
 - File path
 
 Run:
@@ -126,16 +143,21 @@ Run:
 jupyter nbconvert spam-classification-project.ipynb --to pdf --template custom.tplx
 ```
 
+------------------------------------------------------------------------
+
 ## 🧠 Key Learnings
 
--   Text preprocessing for NLP\
--   Converting text to numeric vectors with TF-IDF\
--   Building ML pipelines using scikit-learn\
--   Random Forest tuning with RandomizedSearchCV\
--   PDF generation using LaTeX templates\
--   End-to-end NLP model development workflow
+-   NLP preprocessing\
+-   TF-IDF feature extraction\
+-   Machine learning pipelines\
+-   Random Forest optimization\
+-   Practical model evaluation\
+-   PDF export using LaTeX templates
+
+------------------------------------------------------------------------
 
 ## 📧 Contact
 
-If you have any questions regarding this project or would like to
-collaborate, feel free to get in touch.
+For environment details or collaboration:
+
+📨 **anandarachmanihza@gmail.com**
