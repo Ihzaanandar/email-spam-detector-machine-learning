@@ -101,8 +101,8 @@ The final model demonstrates strong classification ability with:
 ### 1. Clone the Repository
 
 ``` bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Ihzaanandar/email-spam-detector-machine-learning.git
+cd email-spam-detector-machine-learning
 ```
 
 ### 2. Environment Requirement (Important)
@@ -126,21 +126,7 @@ jupyter notebook
 
 Then open:
 
-    spam-classification-project.ipynb
-
-------------------------------------------------------------------------
-
-## 📄 Exporting Notebook to PDF (Optional)
-
-If you want to export the notebook to PDF with: - Title\
-- Date\
-- File path
-
-Run:
-
-``` bash
-jupyter nbconvert spam-classification-project.ipynb --to pdf --template custom.tplx
-```
+    email-spam-detector-machine-learning.ipynb
 
 ------------------------------------------------------------------------
 
